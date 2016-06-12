@@ -1,0 +1,16 @@
+### Starting build.
+# Target: word_count.ml.depends, tags: { extension:re, file:word_count.re, ocaml, ocamldep, quiet }
+/Users/Home/.opam/4.02.3/bin/ocamldep.opt -modules -pp refmt -impl word_count.re | tee word_count.re.depends word_count.ml.depends # cached
+# Target: word_count.cmo, tags: { byte, compile, extension:cmo, extension:re, file:word_count.cmo, file:word_count.re, implem, ocaml, quiet }
+/Users/Home/.opam/4.02.3/bin/ocamlc.opt -c -pp refmt -o word_count.cmo -intf-suffix .rei -impl word_count.re # cached
+# Target: word_count.cmx, tags: { compile, extension:cmx, extension:re, file:word_count.cmx, file:word_count.re, implem, native, ocaml, quiet }
+env OCAMLOPT="ocamlopt.opt" /Users/Home/.opam/4.02.3/bin/reopt -c -pp refmt -o word_count.cmx -intf-suffix .rei -impl word_count.re
++ env OCAMLOPT="ocamlopt.opt" /Users/Home/.opam/4.02.3/bin/reopt -c -pp refmt -o word_count.cmx -intf-suffix .rei -impl word_count.re
+
+ocamlopt.opt -c -pp refmt -o word_count.cmx -intf-suffix .rei -impl word_count.re
+# Target: word_count.native, tags: { dont_link_with, extension:native, file:word_count.native, link, native, ocaml, program, quiet }
+env OCAMLOPT="ocamlopt.opt" /Users/Home/.opam/4.02.3/bin/reopt word_count.cmx -o word_count.native
++ env OCAMLOPT="ocamlopt.opt" /Users/Home/.opam/4.02.3/bin/reopt word_count.cmx -o word_count.native
+
+ocamlopt.opt word_count.cmx -o word_count.native
+# Compilation successful.

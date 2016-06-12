@@ -1,0 +1,18 @@
+### Starting build.
+# Target: test.ml.depends, tags: { extension:re, file:test.re, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -modules -pp refmt -impl test.re | tee test.re.depends test.ml.depends
++ ocamlfind ocamldep -modules -pp refmt -impl test.re | tee test.re.depends test.ml.depends
+test.re: Core Leap OUnit2
+# Target: leap.ml.depends, tags: { extension:re, file:leap.re, ocaml, ocamldep, quiet }
+ocamlfind ocamldep -modules -pp refmt -impl leap.re | tee leap.re.depends leap.ml.depends
++ ocamlfind ocamldep -modules -pp refmt -impl leap.re | tee leap.re.depends leap.ml.depends
+leap.re:
+# Target: leap.cmo, tags: { byte, compile, extension:cmo, extension:re, file:leap.cmo, file:leap.re, implem, ocaml, quiet }
+ocamlfind ocamlc -c -pp refmt -o leap.cmo -intf-suffix .rei -impl leap.re
+# Target: test.cmo, tags: { byte, compile, extension:cmo, extension:re, file:test.cmo, file:test.re, implem, ocaml, quiet }
+ocamlfind ocamlc -c -pp refmt -o test.cmo -intf-suffix .rei -impl test.re
++ ocamlfind ocamlc -c -pp refmt -o test.cmo -intf-suffix .rei -impl test.re
+File "test.re", line 1, characters 5-13:
+Error: Unbound module Core
+Command exited with code 2.
+# Compilation unsuccessful.

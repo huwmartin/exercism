@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "helloWorldTest/helloWorldTest.swift"
+            timestampString = "482607925.384696"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "helloWorldTest.HelloWorldTest.__deallocating_deinit"
+                  moduleName = "helloWorldTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Home/exercism/swift/hello-world/helloWorldTest/helloWorldTest.swift"
+                  timestampString = "482608152.653845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "helloWorldTest.HelloWorldTest.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; helloWorldTest.HelloWorldTest"
+                  moduleName = "helloWorldTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Home/exercism/swift/hello-world/helloWorldTest/helloWorldTest.swift"
+                  timestampString = "482608152.654385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "helloWorldTest.HelloWorldTest.init (selector : ObjectiveC.Selector) -&gt; helloWorldTest.HelloWorldTest"
+                  moduleName = "helloWorldTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Home/exercism/swift/hello-world/helloWorldTest/helloWorldTest.swift"
+                  timestampString = "482608152.655226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "helloWorldTest.HelloWorldTest.init () -&gt; helloWorldTest.HelloWorldTest"
+                  moduleName = "helloWorldTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Home/exercism/swift/hello-world/helloWorldTest/helloWorldTest.swift"
+                  timestampString = "482608152.655554"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
